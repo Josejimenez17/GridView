@@ -45,7 +45,7 @@ class AdaptadorCustom(var context:Context, items:ArrayList<Fruta>): BaseAdapter(
 
         return vista!!
     }
-
+//Prueba
     private class ViewHolder(vista:View){
         var imagen: ImageView? = null
         var nombre: TextView? = null
